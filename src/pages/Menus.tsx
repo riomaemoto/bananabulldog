@@ -1,0 +1,112 @@
+import { Box, Text, Flex } from "@chakra-ui/react";
+
+export const Menus = () => {
+  return (
+    <>
+      <Box
+        m={"0 auto"}
+        w={"100%"}
+        p={"10px"}
+        bgColor={"orange.100"}
+        overflow={"hidden"}
+      >
+        <Flex
+          w={"100vw"}
+          display={{ base: "none", md: "flex" }}
+          justifyContent={"center"}
+        >
+          <Box p={"10px"} w={"30%"} justifyContent={"space-around"}>
+            <Box
+              w={"100%"}
+              h={"500px"}
+              bgColor={"blue.200"}
+              display={"flex"}
+              alignItems={"center"}
+              justifyContent={"center"}
+            >
+              a
+            </Box>
+            <Flex justifyContent={"space-between"}>
+              <Box
+                mt={"22px"}
+                w={"205px"}
+                h={"260px"}
+                bgColor={"blue.200"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+              >
+                b
+              </Box>
+              <Box
+                mt={"22px"}
+                w={"205px"}
+                h={"260px"}
+                bgColor={"blue.200"}
+                display={"flex"}
+                alignItems={"center"}
+                justifyContent={"center"}
+              >
+                c
+              </Box>
+            </Flex>
+          </Box>
+
+          <Box>
+            <Flex>
+              <Box
+                display={"flex"}
+                justifyContent={"center"}
+                alignItems={"center"}
+                m={"10px"}
+                bgColor={"red.100"}
+                h={"300px"}
+                w={"200px"}
+              >
+                h
+              </Box>
+              <Box
+                display={"flex"}
+                justifyContent={"center"}
+                alignItems={"center"}
+                m={"10px"}
+                bgColor={"red.100"}
+                h={"230px"}
+                w={"200px"}
+              >
+                i
+              </Box>
+            </Flex>
+            <Box
+              display={"flex"}
+              justifyContent={"center"}
+              alignItems={"center"}
+              bgColor={"green"}
+              m={"10px"}
+              h={"463px"}
+            >
+              j
+            </Box>
+          </Box>
+        </Flex>
+        <Box
+          display={"flex"}
+          alignItems={"center"}
+          justifyContent={"center"}
+          h={"200px"}
+        >
+          <Text
+            borderRadius={"30px"}
+            p={"10px"}
+            w={{ base: "150px", md: "200px" }}
+            bgColor={"green.300"}
+            textAlign={"center"}
+            textDecor={"underline"}
+          >
+            他のメニュー
+          </Text>
+        </Box>
+      </Box>
+    </>
+  );
+};
