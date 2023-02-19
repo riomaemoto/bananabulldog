@@ -3,7 +3,7 @@ import { Box, Text } from "@chakra-ui/react";
 export const Location = () => {
   return (
     <>
-      <Box display={{ base: "block", md: "flex" }}>
+      <Box bgColor={"orange.100"} display={{ base: "block", md: "flex" }}>
         <Box p={"20px"} h={"500px"} w={{ base: "100%", md: "50%" }}>
           <Text
             textAlign={{ base: "center", md: "start" }}

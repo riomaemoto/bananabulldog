@@ -4,7 +4,7 @@ import { firstLogo1, store1 } from "../constants";
 export const Gallery = () => {
   return (
     <>
-      <Box>
+      <Box pb={"55px"} bgColor={"orange.100"}>
         <Text fontSize={"28px"} p={"60px"} textAlign={"center"}>
           Gallery
         </Text>

@@ -11,7 +11,7 @@ import { firstLogo1 } from "../constants";
 
 export const Home = () => {
   return (
-    <Box overflow={"hidden"} bgColor={"rgb(240,236,220)"} h={"100vh"}>
+    <Box bgColor={"orange.100"} overflow={"hidden"} h={"100vh"}>
       <Container maxW={"3xl"}>
         <Stack
           as={Box}

@@ -1,4 +1,4 @@
-import { Box, Heading, Container, Text, Button, Stack } from "@chakra-ui/react";
+import { Box, Heading, Text, Button, Stack } from "@chakra-ui/react";
 import { Menus } from "./Menus";
 import { Popular } from "./popular";
 import { Location } from "./Location";
@@ -10,8 +10,8 @@ import { Hours } from "./Hours";
 export const TopPage = () => {
   return (
     <>
-      <Box bgColor={"red.100"} w={"100%"}>
-        <Box maxW={"1400px"} m={"0 auto"} bgColor={"red.100"}>
+      <Box bgColor={"orange.100"} w={"100%"}>
+        <Box maxW={"1400px"} m={"0 auto"}>
           <Stack
             as={Box}
             textAlign={"center"}
@@ -48,19 +48,27 @@ export const TopPage = () => {
           </Stack>
         </Box>
       </Box>
-      <Box bgColor={"yellow"}>
-        <Text p={8} pb={0} fontSize={"30px"} textAlign={"center"}>
-          The story of Banana Bulldog
-        </Text>
-        <Text
-          p={8}
-          h={"400px"}
-          fontSize={{ base: "18px", md: "30px" }}
-          textAlign={"center"}
-          overflow={"scroll"}
-        >
-          dhjnvcdserthnbvdsxcbnjytgfdvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytredhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytredhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxd
-        </Text>
+      <Box bgColor={"orange.100"}>
+        <Box bgColor={"yellow"}>
+          <Text
+            p={8}
+            pb={0}
+            bgColor={"orange.100"}
+            fontSize={"30px"}
+            textAlign={"center"}
+          >
+            バナナブルドッグができるまで
+          </Text>
+          <Text
+            p={8}
+            h={"400px"}
+            fontSize={{ base: "18px", md: "30px" }}
+            textAlign={"center"}
+            bgColor={"orange.100"}
+          >
+            dhjnvcdserthnbvdsxcbnjytgfdvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytredhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytredhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxddhjnvcdserthnbvdsxcvbnjytgfdsasxcvfgfdxsdfghjytresxcvbhtrdcvbnvcxd
+          </Text>
+        </Box>
       </Box>
       <Popular />
       <Menus />

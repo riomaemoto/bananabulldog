@@ -8,7 +8,7 @@ export const Pictures = () => {
         px={"20px"}
         py={"20px"}
         h={{ base: "330px", md: "600px" }}
-        bgColor={"yellow.200"}
+        bgColor={"orange.100"}
       >
         <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
           <Box>
