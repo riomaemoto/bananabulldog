@@ -6,6 +6,7 @@ import { OnlineStore } from "./Online_store";
 import { Gallery } from "./Gallery";
 import { Pictures } from "./Pictures";
 import { Hours } from "./Hours";
+import { Link } from "react-router-dom";
 
 export const TopPage = () => {
   return (
@@ -34,9 +35,11 @@ export const TopPage = () => {
               alignSelf={"center"}
               position={"relative"}
             >
-              <Button colorScheme={"green"} rounded={"full"} px={6}>
-                See menu
-              </Button>
+              <Link to={"/menu"}>
+                <Button colorScheme={"green"} rounded={"full"} px={6}>
+                  See menu
+                </Button>
+              </Link>
             </Stack>
           </Stack>
         </Box>
@@ -50,7 +53,7 @@ export const TopPage = () => {
             fontSize={"30px"}
             textAlign={"center"}
           >
-            バナナブルドッグができるまで
+            About BananaBulldog
           </Text>
           <Text
             p={8}

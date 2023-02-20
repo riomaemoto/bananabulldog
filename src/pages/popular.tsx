@@ -4,12 +4,20 @@ import { store1 } from "../constants";
 export const Popular = () => {
   return (
     <>
-      <Box bgColor={"orange.100"} display={{ base: "block", md: "flex" }}>
-        <Box p={"20px"} h={"500px"} w={{ base: "100%", md: "50%" }}>
+      <Box
+        p={{ base: "10px", md: "50px" }}
+        bgColor={"orange.100"}
+        display={{ base: "block", md: "flex" }}
+      >
+        <Box
+          p={"20px"}
+          h={{ base: "400px", md: "500px" }}
+          w={{ base: "100%", md: "50%" }}
+        >
           <Text
             textAlign={{ base: "center", md: "start" }}
             fontSize={{ base: "18px", md: "30px" }}
-            pt={"80px"}
+            pt={{ base: "10px", md: "80px" }}
             pl={{ base: "20px", md: "80px" }}
             mx={"auto"}
           >

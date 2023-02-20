@@ -16,8 +16,8 @@ export const Home = () => {
         <Stack
           as={Box}
           textAlign={"center"}
-          spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 26 }}
+          spacing={{ base: 8, md: 16 }}
+          py={{ base: 20, md: 24 }}
         >
           <Heading
             fontWeight={600}
@@ -35,7 +35,7 @@ export const Home = () => {
             <Text
               p={"8px"}
               mt={"8px"}
-              fontSize={{ base: "52px", md: "72px" }}
+              fontSize={{ base: "48px", md: "72px" }}
               fontFamily={"sans-serif"}
             >
               Comming soon...!
