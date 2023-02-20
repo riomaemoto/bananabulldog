@@ -16,7 +16,8 @@ export const TopPage = () => {
             as={Box}
             textAlign={"center"}
             spacing={{ base: 8, md: 14 }}
-            py={{ base: 20, md: 36 }}
+            py={{ base: 10, md: 36 }}
+            pb={{ base: 2, md: 10 }}
           >
             <Heading
               textAlign={"center"}
@@ -33,15 +34,7 @@ export const TopPage = () => {
               alignSelf={"center"}
               position={"relative"}
             >
-              <Button
-                colorScheme={"green"}
-                bg={"green.400"}
-                rounded={"full"}
-                px={6}
-                _hover={{
-                  bg: "green.500",
-                }}
-              >
+              <Button colorScheme={"green"} rounded={"full"} px={6}>
                 See menu
               </Button>
             </Stack>

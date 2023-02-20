@@ -1,4 +1,5 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
+import { store1 } from "../constants";
 
 export const Pictures = () => {
   return (
@@ -13,64 +14,73 @@ export const Pictures = () => {
         <Box display={"flex"} justifyContent={"center"} alignItems={"center"}>
           <Box>
             <Flex>
-              <Box
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
-              <Box
+              ></Image>
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
-              <Box
+              ></Image>
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
+              ></Image>
             </Flex>
             <Flex>
-              <Box
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
-              <Box
+              ></Image>
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
-              <Box
+              ></Image>
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
+              ></Image>
             </Flex>
             <Flex>
-              <Box
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
-              <Box
+              ></Image>
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
-              <Box
+              ></Image>
+              <Image
+                src={store1}
                 m={"5px"}
                 w={{ base: "90px", md: "175px" }}
                 h={{ base: "90px", md: "175px" }}
                 bgColor={"green.100"}
-              ></Box>
+              ></Image>
             </Flex>
           </Box>
         </Box>

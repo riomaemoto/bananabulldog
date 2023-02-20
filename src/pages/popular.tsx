@@ -1,4 +1,5 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Image } from "@chakra-ui/react";
+import { store1 } from "../constants";
 
 export const Popular = () => {
   return (
@@ -31,7 +32,7 @@ export const Popular = () => {
             bvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfgh
           </Text>
         </Box>
-        <Box
+        {/* <Box
           border={"2px solid black"}
           display={"flex"}
           alignItems={"center"}
@@ -40,7 +41,8 @@ export const Popular = () => {
           w={{ base: "100%", md: "50%" }}
         >
           a
-        </Box>
+        </Box> */}
+        <Image p={"10px"} src={store1} alt="" />
       </Box>
     </>
   );

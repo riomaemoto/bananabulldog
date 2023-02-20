@@ -1,4 +1,5 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Image } from "@chakra-ui/react";
+import { store1 } from "../constants";
 
 export const Location = () => {
   return (
@@ -31,16 +32,15 @@ export const Location = () => {
             bvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfgh
           </Text>
         </Box>
-        <Box
+        <Image
           border={"2px solid black"}
           display={"flex"}
           alignItems={"center"}
           justifyContent={"center"}
           h={{ base: "300px", md: "600px" }}
           w={{ base: "100%", md: "50%" }}
-        >
-          a
-        </Box>
+          src={store1}
+        ></Image>
       </Box>
     </>
   );

@@ -1,4 +1,5 @@
-import { Box, Text, Flex } from "@chakra-ui/react";
+import { Box, Text, Flex, Image } from "@chakra-ui/react";
+import { store1 } from "../constants";
 
 export const Menus = () => {
   return (
@@ -16,45 +17,42 @@ export const Menus = () => {
           justifyContent={"center"}
         >
           <Box p={"10px"} w={"30%"} justifyContent={"space-around"}>
-            <Box
+            <Image
               w={"100%"}
               h={"500px"}
               bgColor={"blue.200"}
               display={"flex"}
               alignItems={"center"}
               justifyContent={"center"}
-            >
-              a
-            </Box>
+              src={store1}
+            ></Image>
             <Flex justifyContent={"space-between"}>
-              <Box
+              <Image
                 mt={"22px"}
-                w={"205px"}
+                w={"230px"}
                 h={"260px"}
                 bgColor={"blue.200"}
                 display={"flex"}
                 alignItems={"center"}
                 justifyContent={"center"}
-              >
-                b
-              </Box>
-              <Box
+                src={store1}
+              ></Image>
+              <Image
                 mt={"22px"}
-                w={"205px"}
+                w={"230px"}
                 h={"260px"}
                 bgColor={"blue.200"}
                 display={"flex"}
                 alignItems={"center"}
                 justifyContent={"center"}
-              >
-                c
-              </Box>
+                src={store1}
+              ></Image>
             </Flex>
           </Box>
 
           <Box>
             <Flex>
-              <Box
+              <Image
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -62,10 +60,9 @@ export const Menus = () => {
                 bgColor={"red.100"}
                 h={"300px"}
                 w={"200px"}
-              >
-                h
-              </Box>
-              <Box
+                src={store1}
+              ></Image>
+              <Image
                 display={"flex"}
                 justifyContent={"center"}
                 alignItems={"center"}
@@ -73,20 +70,19 @@ export const Menus = () => {
                 bgColor={"red.100"}
                 h={"230px"}
                 w={"200px"}
-              >
-                i
-              </Box>
+                src={store1}
+              ></Image>
             </Flex>
-            <Box
+            <Image
               display={"flex"}
               justifyContent={"center"}
               alignItems={"center"}
               bgColor={"green"}
               m={"10px"}
               h={"463px"}
-            >
-              j
-            </Box>
+              w={"400px"}
+              src={store1}
+            ></Image>
           </Box>
         </Flex>
         <Box

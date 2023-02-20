@@ -1,51 +1,48 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
+import { store1 } from "../constants";
 
 export const OnlineStore = () => {
   return (
     <>
       <Flex w={"100%"}>
-        <Box
+        <Image
+          src={store1}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           w={"50%"}
           h={{ base: "200px", md: "600px" }}
           bgColor={"purple.100"}
-        >
-          a
-        </Box>
-        <Box
+        ></Image>
+        <Image
+          src={store1}
           bgColor={"skyblue"}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           w={"50%"}
           h={{ base: "200px", md: "600px" }}
-        >
-          b
-        </Box>
+        ></Image>
       </Flex>
       <Flex w={"100%"}>
-        <Box
+        <Image
+          src={store1}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           w={"50%"}
           h={{ base: "200px", md: "600px" }}
           bgColor={"green.100"}
-        >
-          a
-        </Box>
-        <Box
+        ></Image>
+        <Image
+          src={store1}
           bgColor={"orange.200"}
           display={"flex"}
           justifyContent={"center"}
           alignItems={"center"}
           w={"50%"}
           h={{ base: "200px", md: "600px" }}
-        >
-          b
-        </Box>
+        ></Image>
       </Flex>
     </>
   );
