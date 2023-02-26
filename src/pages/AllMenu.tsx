@@ -59,8 +59,8 @@ export const AllMenu = () => {
   return (
     <>
       <Box bgColor={"orange.100"}>
-        <Text textAlign={"center"} p={"16px"} fontSize={"32px"}>
-          メニュー一覧
+        <Text textAlign={"center"} p={"16px"} fontSize={"40px"}>
+          Menu
         </Text>
         <Box>
           <Flex flexWrap={"wrap"} justify={"center"}>
