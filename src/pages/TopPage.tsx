@@ -7,11 +7,20 @@ import { Gallery } from "./Gallery";
 import { Pictures } from "./Pictures";
 import { Hours } from "./Hours";
 import { Link } from "react-router-dom";
+import { store1 } from "../constants";
 
 export const TopPage = () => {
   return (
     <>
-      <Box bgColor={"orange.100"} w={"100%"}>
+      <Box
+        bgImage={store1}
+        bgRepeat={"no-repeat"}
+        bgColor={"orange.100"}
+        bgSize={"cover"}
+        h={"500px"}
+
+        // w={"100%"}
+      >
         <Box maxW={"1400px"} m={"0 auto"}>
           <Stack
             as={Box}
