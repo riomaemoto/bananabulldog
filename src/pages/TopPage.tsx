@@ -18,7 +18,6 @@ export const TopPage = () => {
         bgColor={"orange.100"}
         bgSize={"cover"}
         h={"500px"}
-
         // w={"100%"}
       >
         <Box maxW={"1400px"} m={"0 auto"}>
@@ -34,6 +33,7 @@ export const TopPage = () => {
               fontWeight={600}
               fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
               lineHeight={"110%"}
+              color={"gray.50"}
             >
               Banana Bulldog <br />
             </Heading>
@@ -45,8 +45,10 @@ export const TopPage = () => {
               position={"relative"}
             >
               <Link to={"/menu"}>
-                <Button colorScheme={"green"} rounded={"full"} px={6}>
-                  See menu
+                <Button colorScheme={"orange"} rounded={"full"} px={6}>
+                  <Text fontSize={"24px"} fontWeight={"600"}>
+                    See menu
+                  </Text>
                 </Button>
               </Link>
             </Stack>
@@ -62,7 +64,7 @@ export const TopPage = () => {
             fontSize={"30px"}
             textAlign={"center"}
           >
-            About BananaBulldog
+            バナナブルドッグとは？
           </Text>
           <Text
             p={8}

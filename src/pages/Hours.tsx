@@ -1,9 +1,9 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text } from "@chakra-ui/react";
 
 export const Hours = () => {
   return (
     <>
-      <Box w={"100%"} bgColor={"orange.100"}>
+      <Box p={"40px"} w={"100%"} bgColor={"orange.100"}>
         <Text
           fontSize={{ base: "24px", md: "32px" }}
           p={"18px"}
@@ -40,27 +40,14 @@ export const Hours = () => {
             </Box>
           </Flex>
         </Box>
-        <Text
-          m={"auto"}
-          mb={"20px"}
-          h={"1px"}
-          w={"90%"}
-          // bgColor={"black"}
-        ></Text>
 
-        <Box p={"20px"} pb={{ base: "40px", md: "100px" }}>
-          <Text
-            m={"auto"}
-            p={"10px"}
-            textAlign={"center"}
-            w={"200px"}
-            bgColor={"brown"}
-            borderRadius={"20px"}
-            color={"white"}
-          >
-            お問い合わせ
-          </Text>
-        </Box>
+        {/* <Box p={"32px"} textAlign={"center"}>
+          <Button colorScheme={"twitter"} rounded={"full"} px={6}>
+            <Text textAlign={"center"} fontSize={"16px"} fontWeight={"600"}>
+              お問い合わせ
+            </Text>
+          </Button>
+        </Box> */}
       </Box>
     </>
   );

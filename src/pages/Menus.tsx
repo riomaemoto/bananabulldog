@@ -28,7 +28,7 @@ export const Menus = () => {
                 alignItems={"center"}
                 justifyContent={"center"}
                 src={store1}
-              ></Image>
+              />
               <Flex justifyContent={"space-between"}>
                 <Image
                   mt={"22px"}
@@ -39,7 +39,7 @@ export const Menus = () => {
                   alignItems={"center"}
                   justifyContent={"center"}
                   src={store1}
-                ></Image>
+                />
                 <Image
                   mt={"22px"}
                   w={"230px"}
@@ -49,7 +49,7 @@ export const Menus = () => {
                   alignItems={"center"}
                   justifyContent={"center"}
                   src={store1}
-                ></Image>
+                />
               </Flex>
             </Box>
 
@@ -64,7 +64,7 @@ export const Menus = () => {
                   h={"300px"}
                   w={"200px"}
                   src={store1}
-                ></Image>
+                />
                 <Image
                   display={"flex"}
                   justifyContent={"center"}
@@ -74,7 +74,7 @@ export const Menus = () => {
                   h={"230px"}
                   w={"200px"}
                   src={store1}
-                ></Image>
+                />
               </Flex>
               <Image
                 display={"flex"}
@@ -85,26 +85,9 @@ export const Menus = () => {
                 h={"463px"}
                 w={"400px"}
                 src={store1}
-              ></Image>
+              />
             </Box>
           </Flex>
-          <Box
-            display={"flex"}
-            alignItems={"center"}
-            justifyContent={"center"}
-            h={{ base: "100px", md: "200px" }}
-          >
-            <Text
-              borderRadius={"30px"}
-              p={"10px"}
-              w={{ base: "150px", md: "200px" }}
-              bgColor={"green.300"}
-              textAlign={"center"}
-              textDecor={"underline"}
-            >
-              他のメニュー
-            </Text>
-          </Box>
         </Box>
       </Box>
     </>

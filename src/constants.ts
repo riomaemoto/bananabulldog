@@ -1,4 +1,4 @@
-import firstLogo from "./images/353823C3-3A59-49DF-99EE-634D5ACC1BED 2.jpg";
+import headerLogo from "./images/headerLogo.jpeg";
 import store from "./images/store.jpeg";
-export const firstLogo1 = firstLogo;
+export const headerLogo1 = headerLogo;
 export const store1 = store;

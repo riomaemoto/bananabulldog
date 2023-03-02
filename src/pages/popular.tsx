@@ -40,16 +40,6 @@ export const Popular = () => {
             bvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfghんbvcdrtgcsdfghjhgvbんjhgfgh
           </Text>
         </Box>
-        {/* <Box
-          border={"2px solid black"}
-          display={"flex"}
-          alignItems={"center"}
-          justifyContent={"center"}
-          h={{ base: "300px", md: "600px" }}
-          w={{ base: "100%", md: "50%" }}
-        >
-          a
-        </Box> */}
         <Image p={"10px"} src={store1} alt="" />
       </Box>
     </>
