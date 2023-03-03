@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Image } from "@chakra-ui/react";
+import { Box, Flex, Text, Image, Link } from "@chakra-ui/react";
 import { headerLogo1 } from "../constants";
 
 export const Header = () => {
